@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		e=[];
+	</script>
+	<title>ejercicio 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center>
+		<div class="general">
+		<input type="text" placeholder="ingesar numeros" id="numbers" >
+		<br><br>
+		<input type="button" value="Ingresar" onclick="esneider();">
+		<br><br>
+		<button onclick="nummax();">Mostrar el vector maximo</button>
+      
+		<div id="mostrar"></div>
+	</center>
+	
+	<script>
+		function esneider()
+		{
+			e[e.length]=document.getElementById("numbers").value;
+			console.log(e);
+			console.log(e.length);
+			document.getElementById("numbers").value="";
+			if(e.length>5)
+			{
+				alert("Solo son maximo 5");
+			    e.pop();
+				console.log(e);
+				console.log(e.length);
+			}
+		}
+
+		function nummax()
+		{
+			y=Math.max(...e);
+			document.getElementById("mostrar").innerHTML=y;
+		}
+	</script>
+</div>
+
+  <a href="https://esneiderson.github.io/cuartaentrega1/" class="first">PRIMERA</a>
+  <a href="" class="second">TERCERA</a>
+</body>
+</html>

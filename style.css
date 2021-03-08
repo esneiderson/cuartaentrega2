@@ -1,0 +1,38 @@
+body{
+	background-color: #B7B9CC;
+}
+
+
+.general{
+	background-color: gray;
+	width: 500px;
+	height: 500px;
+	top: 50px;
+	margin-left: 00px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 30px;
+	border: solid #B3B9ED 10px;
+}
+
+#numbers{
+	text-align: center;
+	height: 20px;
+	background-color: #B3B9ED;
+	font-size: 20px;
+	color: white;
+	padding: 2px;
+}
+
+.first{
+	position: absolute;
+	top: 500px;
+}
+
+.second
+{
+	position: absolute;
+	top: 500px;
+	left: 1200px;
+
+}
